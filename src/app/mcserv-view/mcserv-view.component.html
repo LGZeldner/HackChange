@@ -1,0 +1,21 @@
+<div class="row">
+  <!--<div class="col-2 pt-2">{{inMcserv.id}}
+  </div>-->
+  <div class="col-1 pt-2">{{inMcserv.name}}
+  </div>
+  <div class="col-3 pt-2">{{inMcserv.tag}}
+  </div>
+  <div class="col-4 pt-2">{{inMcserv.desc}}
+  </div>
+  <div class="col-2 pt-2">{{inMcserv.status}}
+  </div>
+  <div class="col-2">
+    <div class="btn-group m-1">
+      <!--<a [routerLink]="['/edit', inMcserv.id]">
+        <button class="btn btn-primary">Edit</button>
+      </a>-->
+      <button class="btn btn-danger" (click)="on_del_person()">Del</button>
+    </div>
+  </div>
+
+</div>

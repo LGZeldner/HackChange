@@ -1,0 +1,7 @@
+<div class="container">
+  <app-mcserv-view (delMcserv)="mcservsService.on_del_mcserv($event)"
+                   *ngFor="let mcserv of mcservsService.mcservs"
+                   [inMcserv]="mcserv">
+  </app-mcserv-view>
+
+</div>
